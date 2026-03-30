@@ -1,0 +1,10 @@
+channel_in: 1
+channels_out: 1
+kernel_chain:
+- 32
+- 64
+- 128
+kernel_size: 3
+lr: 0.001
+optimizer: AdamW
+scheduler: reduce_on_plateau
